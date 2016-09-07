@@ -1,0 +1,16 @@
+blockquote::before,
+blockquote::after {
+  font-size: 32px;
+}
+blockquote::before {
+  content:'“';
+}
+blockquote::after {
+  content:'”';
+}
+author::before {
+  content:'-';
+}
+author {
+  margin-left:200px;
+}
